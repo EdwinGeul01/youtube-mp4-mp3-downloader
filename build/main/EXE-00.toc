@@ -59,8 +59,8 @@
   ('main',
    '/home/edwin/Documentos/python test/entorno 1/src/main.py',
    'PYSOURCE'),
-  ('libz.so.1', '/lib/x86_64-linux-gnu/libz.so.1', 'BINARY'),
   ('libexpat.so.1', '/lib/x86_64-linux-gnu/libexpat.so.1', 'BINARY'),
+  ('libz.so.1', '/lib/x86_64-linux-gnu/libz.so.1', 'BINARY'),
   ('lib-dynload/_ssl',
    '/usr/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
@@ -115,20 +115,20 @@
   ('lib-dynload/_multibytecodec',
    '/usr/lib/python3.8/lib-dynload/_multibytecodec.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('lib-dynload/_codecs_kr',
-   '/usr/lib/python3.8/lib-dynload/_codecs_kr.cpython-38-x86_64-linux-gnu.so',
-   'EXTENSION'),
   ('lib-dynload/_codecs_iso2022',
    '/usr/lib/python3.8/lib-dynload/_codecs_iso2022.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('lib-dynload/_codecs_jp',
    '/usr/lib/python3.8/lib-dynload/_codecs_jp.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
+  ('lib-dynload/_codecs_hk',
+   '/usr/lib/python3.8/lib-dynload/_codecs_hk.cpython-38-x86_64-linux-gnu.so',
+   'EXTENSION'),
   ('lib-dynload/_codecs_cn',
    '/usr/lib/python3.8/lib-dynload/_codecs_cn.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('lib-dynload/_codecs_hk',
-   '/usr/lib/python3.8/lib-dynload/_codecs_hk.cpython-38-x86_64-linux-gnu.so',
+  ('lib-dynload/_codecs_kr',
+   '/usr/lib/python3.8/lib-dynload/_codecs_kr.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('lib-dynload/_codecs_tw',
    '/usr/lib/python3.8/lib-dynload/_codecs_tw.cpython-38-x86_64-linux-gnu.so',
@@ -192,41 +192,93 @@
   ('lib-dynload/_json',
    '/usr/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('libcrypto.so.1.1', '/lib/x86_64-linux-gnu/libcrypto.so.1.1', 'BINARY'),
   ('libssl.so.1.1', '/lib/x86_64-linux-gnu/libssl.so.1.1', 'BINARY'),
+  ('libcrypto.so.1.1', '/lib/x86_64-linux-gnu/libcrypto.so.1.1', 'BINARY'),
   ('libmpdec.so.2', '/lib/x86_64-linux-gnu/libmpdec.so.2', 'BINARY'),
   ('libuuid.so.1', '/lib/x86_64-linux-gnu/libuuid.so.1', 'BINARY'),
   ('libffi.so.7', '/lib/x86_64-linux-gnu/libffi.so.7', 'BINARY'),
   ('liblzma.so.5', '/lib/x86_64-linux-gnu/liblzma.so.5', 'BINARY'),
   ('libbz2.so.1.0', '/lib/x86_64-linux-gnu/libbz2.so.1.0', 'BINARY'),
-  ('libtinfo.so.6', '/lib/x86_64-linux-gnu/libtinfo.so.6', 'BINARY'),
   ('libreadline.so.8', '/lib/x86_64-linux-gnu/libreadline.so.8', 'BINARY'),
-  ('libquadmath-96973f99.so.0.0.0',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0',
-   'BINARY'),
-  ('libgfortran-040039e1.so.5.0.0',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0',
-   'BINARY'),
-  ('libgcc_s.so.1', '/lib/x86_64-linux-gnu/libgcc_s.so.1', 'BINARY'),
+  ('libtinfo.so.6', '/lib/x86_64-linux-gnu/libtinfo.so.6', 'BINARY'),
   ('libopenblas64_p-r0-2f7c42d4.3.18.so',
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-2f7c42d4.3.18.so',
    'BINARY'),
+  ('libgcc_s.so.1', '/lib/x86_64-linux-gnu/libgcc_s.so.1', 'BINARY'),
+  ('libgfortran-040039e1.so.5.0.0',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0',
+   'BINARY'),
+  ('libquadmath-96973f99.so.0.0.0',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0',
+   'BINARY'),
   ('libpython3.8.so.1.0',
-   '/lib/x86_64-linux-gnu/libpython3.8.so.1.0',
+   '/usr/lib/x86_64-linux-gnu/libpython3.8.so.1.0',
    'BINARY'),
   ('base_library.zip',
    '/home/edwin/Documentos/python test/entorno 1/build/main/base_library.zip',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/dependency_links.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/dependency_links.txt',
+   'DATA'),
+  ('wheel-0.37.1.dist-info/METADATA',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/METADATA',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/entry_points.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/entry_points.txt',
+   'DATA'),
+  ('wheel-0.37.1.dist-info/LICENSE.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/LICENSE.txt',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/RECORD',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/RECORD',
+   'DATA'),
+  ('pip-20.0.2.dist-info/top_level.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/top_level.txt',
+   'DATA'),
+  ('pip-20.0.2.dist-info/WHEEL',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/WHEEL',
+   'DATA'),
+  ('pip-20.0.2.dist-info/entry_points.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/entry_points.txt',
+   'DATA'),
+  ('pip-20.0.2.dist-info/INSTALLER',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/INSTALLER',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/zip-safe',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/zip-safe',
+   'DATA'),
+  ('pip-20.0.2.dist-info/LICENSE.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/LICENSE.txt',
    'DATA'),
   ('pip-20.0.2.dist-info/METADATA',
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/METADATA',
    'DATA'),
-  ('setuptools-44.0.0.dist-info/METADATA',
+  ('wheel-0.37.1.dist-info/top_level.txt',
    '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/METADATA',
+   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/top_level.txt',
+   'DATA'),
+  ('wheel-0.37.1.dist-info/entry_points.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/entry_points.txt',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/INSTALLER',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/INSTALLER',
    'DATA'),
   ('setuptools-44.0.0.dist-info/top_level.txt',
    '/home/edwin/Documentos/python test/entorno '
@@ -236,90 +288,38 @@
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/RECORD',
    'DATA'),
-  ('pip-20.0.2.dist-info/LICENSE.txt',
+  ('setuptools-44.0.0.dist-info/METADATA',
    '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/LICENSE.txt',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/zip-safe',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/zip-safe',
-   'DATA'),
-  ('pip-20.0.2.dist-info/top_level.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/top_level.txt',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/AUTHORS.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/AUTHORS.txt',
-   'DATA'),
-  ('pip-20.0.2.dist-info/RECORD',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/RECORD',
-   'DATA'),
-  ('wheel-0.37.1.dist-info/top_level.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/top_level.txt',
-   'DATA'),
-  ('wheel-0.37.1.dist-info/INSTALLER',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/INSTALLER',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/entry_points.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/entry_points.txt',
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/METADATA',
    'DATA'),
   ('wheel-0.37.1.dist-info/WHEEL',
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/WHEEL',
    'DATA'),
-  ('pip-20.0.2.dist-info/entry_points.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/entry_points.txt',
-   'DATA'),
-  ('wheel-0.37.1.dist-info/entry_points.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/entry_points.txt',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/dependency_links.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/dependency_links.txt',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/RECORD',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/RECORD',
-   'DATA'),
-  ('wheel-0.37.1.dist-info/LICENSE.txt',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/LICENSE.txt',
-   'DATA'),
-  ('pip-20.0.2.dist-info/WHEEL',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/WHEEL',
-   'DATA'),
-  ('pip-20.0.2.dist-info/INSTALLER',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/INSTALLER',
-   'DATA'),
-  ('setuptools-44.0.0.dist-info/WHEEL',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/WHEEL',
-   'DATA'),
-  ('wheel-0.37.1.dist-info/METADATA',
-   '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/METADATA',
-   'DATA'),
   ('setuptools-44.0.0.dist-info/LICENSE.txt',
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/LICENSE.txt',
    'DATA'),
-  ('setuptools-44.0.0.dist-info/INSTALLER',
+  ('pip-20.0.2.dist-info/RECORD',
    '/home/edwin/Documentos/python test/entorno '
-   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/INSTALLER',
+   '1/env/lib/python3.8/site-packages/pip-20.0.2.dist-info/RECORD',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/AUTHORS.txt',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/AUTHORS.txt',
+   'DATA'),
+  ('wheel-0.37.1.dist-info/INSTALLER',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/wheel-0.37.1.dist-info/INSTALLER',
+   'DATA'),
+  ('setuptools-44.0.0.dist-info/WHEEL',
+   '/home/edwin/Documentos/python test/entorno '
+   '1/env/lib/python3.8/site-packages/setuptools-44.0.0.dist-info/WHEEL',
    'DATA')],
  [],
  False,
  False,
- 1642305481,
+ 1642308331,
  [('run',
    '/home/edwin/Documentos/python test/entorno '
    '1/env/lib/python3.8/site-packages/PyInstaller/bootloader/Linux-64bit-intel/run',

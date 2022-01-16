@@ -31,7 +31,7 @@ while True:
         os.system("clear")
         Configure()
     if(option == 3):
-        exit()
+        break
 
     
 
