@@ -29,3 +29,4 @@ run the command
 ```
 
 #### You can make the configuration through the config.json or by the same program
+![Captura de pantalla de 2022-01-15 22-32-48](https://user-images.githubusercontent.com/47041954/149647391-9cfe7d40-8065-4f1b-89c9-a498439e7ce2.png)
